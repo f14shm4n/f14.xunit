@@ -1,7 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>netcoreapp2.0;netcoreapp2.1</TargetFrameworks>
+    <Authors>f14shm4n</Authors>
+    <Company>f14shm4n</Company>
+    <Description>Provides helper classes and methods for xUnit.</Description>
+    <Copyright>f14shm4n</Copyright>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/f14shm4n/f14.xunit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/f14shm4n/f14.xunit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>NetCoreApp;xUnit</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.analyzers" Version="0.10.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
 </Project>
